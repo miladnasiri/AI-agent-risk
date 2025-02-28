@@ -1,4 +1,4 @@
-# DJTello Digital Twin 🚁
+# AI agent DJTello Digital Twin 🚁
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -919,5 +919,5 @@ SOFTWARE.</p>
 ---
 
 <div align="center">
-  <p><i>Developed with ❤️ using advanced AI techniques</i></p>
+  <p><i>Milad Nasiri></p>
 </div>
