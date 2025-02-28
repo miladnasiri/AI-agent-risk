@@ -4,11 +4,17 @@
 
 ## Abstract
 
+# DJTello Digital Twin
+
+## Abstract
+
 This project presents a comprehensive digital twin simulation system for the DJI Tello drone, providing an accurate virtual representation of drone physics and behavior. The system takes sensor data inputs (IMU readings, position coordinates, battery status) and environmental parameters, processing them through a 6-DOF physics model to generate realistic drone state outputs. The simulation environment interfaces with multiple AI agent implementations that consume observation vectors (position, velocity, orientation, angular velocity) and produce normalized control signals (thrust, roll, pitch, yaw).
 
-demonstrated three classes of agent methodologies: rule-based controllers using PID algorithms, reinforcement learning agents trained with state-of-the-art algorithms (PPO, SAC, TD3), and an advanced deep learning agent with custom neural network architecture. Performance evaluation across multiple task domains (hovering, waypoint navigation, pattern following) shows that our learning-based agents achieve up to 95% task completion rates while maintaining stability in challenging conditions. The complete system enables rapid prototyping and training of autonomous drone behaviors in a risk-free virtual environment before deployment to physical hardware.
+We implement three classes of agent methodologies: rule-based controllers using PID algorithms, reinforcement learning agents based on modern algorithms (PPO, SAC, TD3), and an advanced deep learning agent with custom neural network architecture. The system supports multiple task domains including hovering, waypoint navigation, and pattern following. This digital twin approach enables rapid development and iteration of autonomous drone behaviors in a risk-free virtual environment, allowing for extensive testing and refinement before deployment to physical hardware.
 
 ![DJTello Digital Twin](Screenshot%20from%202025-02-28%2001-07-27.png)
+
+
 
 
 
