@@ -904,5 +904,5 @@ class TelloEnv(gym.Env):
 ---
 
 <div align="center">
-  <p><i>Milad Nasiri></p>
+  <p><i>Milad Nasiri</p>
 </div>
