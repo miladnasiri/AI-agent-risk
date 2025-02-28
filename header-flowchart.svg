@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="600" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">DJTello Digital Twin with AI Agent</text>
+  
+  <!-- Main flow boxes -->
+  <!-- Digital Twin Section -->
+  <rect x="80" y="70" width="300" height="280" rx="10" ry="10" fill="#3498db" fill-opacity="0.2" stroke="#3498db" stroke-width="2" />
+  <text x="230" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">Digital Twin</text>
+  
+  <!-- Physics Model -->
+  <rect x="100" y="110" width="260" height="70" rx="8" ry="8" fill="#3498db" stroke="#3498db" stroke-width="2" />
+  <text x="230" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Physics Simulation</text>
+  <text x="230" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">6-DOF Drone Model | Sensor Simulation</text>
+  
+  <!-- Environment -->
+  <rect x="100" y="190" width="260" height="70" rx="8" ry="8" fill="#3498db" stroke="#3498db" stroke-width="2" />
+  <text x="230" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Gymnasium Environment</text>
+  <text x="230" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">State Spaces | Action Spaces | Rewards</text>
+  
+  <!-- Visualization -->
+  <rect x="100" y="270" width="260" height="70" rx="8" ry="8" fill="#3498db" stroke="#3498db" stroke-width="2" />
+  <text x="230" y="300" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">3D Visualization</text>
+  <text x="230" y="325" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">OpenGL Rendering | Real-time Display</text>
+  
+  <!-- AI Agent Section -->
+  <rect x="450" y="70" width="300" height="280" rx="10" ry="10" fill="#e74c3c" fill-opacity="0.2" stroke="#e74c3c" stroke-width="2" />
+  <text x="600" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">AI Agents</text>
+  
+  <!-- Rule-based Agents -->
+  <rect x="470" y="110" width="260" height="70" rx="8" ry="8" fill="#e74c3c" stroke="#e74c3c" stroke-width="2" />
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Rule-Based Agents</text>
+  <text x="600" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Hover | Waypoint | PID Controllers</text>
+  
+  <!-- RL Agents -->
+  <rect x="470" y="190" width="260" height="70" rx="8" ry="8" fill="#e74c3c" stroke="#e74c3c" stroke-width="2" />
+  <text x="600" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Reinforcement Learning</text>
+  <text x="600" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">PPO | SAC | TD3 Algorithms</text>
+  
+  <!-- Deep Agent -->
+  <rect x="470" y="270" width="260" height="70" rx="8" ry="8" fill="#e74c3c" stroke="#e74c3c" stroke-width="2" />
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Deep Learning Agent</text>
+  <text x="600" y="325" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Neural Networks | Advanced SAC</text>
+  
+  <!-- Training Section -->
+  <rect x="820" y="70" width="300" height="280" rx="10" ry="10" fill="#2ecc71" fill-opacity="0.2" stroke="#2ecc71" stroke-width="2" />
+  <text x="970" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">Training & Tasks</text>
+  
+  <!-- Training System -->
+  <rect x="840" y="110" width="260" height="70" rx="8" ry="8" fill="#2ecc71" stroke="#2ecc71" stroke-width="2" />
+  <text x="970" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Training System</text>
+  <text x="970" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Experience Replay | Policy Updates</text>
+  
+  <!-- Task Types -->
+  <rect x="840" y="190" width="260" height="70" rx="8" ry="8" fill="#2ecc71" stroke="#2ecc71" stroke-width="2" />
+  <text x="970" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Drone Tasks</text>
+  <text x="970" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Hover | Waypoint | Square | Circle</text>
+  
+  <!-- Evaluation -->
+  <rect x="840" y="270" width="260" height="70" rx="8" ry="8" fill="#2ecc71" stroke="#2ecc71" stroke-width="2" />
+  <text x="970" y="300" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Evaluation & Metrics</text>
+  <text x="970" y="325" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Performance | Success Rate | Efficiency</text>
+  
+  <!-- Connecting Arrows -->
+  <!-- Digital Twin to AI Agent -->
+  <path d="M380 200 L450 200" stroke="#7f8c8d" stroke-width="3" fill="none" />
+  <polygon points="445,195 455,200 445,205" fill="#7f8c8d" />
+  
+  <!-- AI Agent to Training -->
+  <path d="M750 200 L820 200" stroke="#7f8c8d" stroke-width="3" fill="none" />
+  <polygon points="815,195 825,200 815,205" fill="#7f8c8d" />
+  
+  <!-- Training back to Digital Twin (circular) -->
+  <path d="M840 320 C700 380 400 380 230 340" stroke="#7f8c8d" stroke-width="3" fill="none" stroke-dasharray="10,5" />
+  <polygon points="235,345 225,335 240,330" fill="#7f8c8d" />
+  
+  <!-- Labels for flow arrows -->
+  <text x="415" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">States</text>
+  <text x="415" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Observations</text>
+  
+  <text x="785" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Actions</text>
+  <text x="785" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Controls</text>
+  
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Improved Models & Policies</text>
+  
+  <!-- Developed with LLM Note -->
+  <text x="600" y="385" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#95a5a6">Developed with Claude 3.7 Sonnet</text>
+</svg>
