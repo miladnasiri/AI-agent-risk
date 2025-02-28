@@ -1,6 +1,6 @@
 # DJTello Digital Twin
 
-# DJTello Digital Twin
+
 
 ## Abstract
 
