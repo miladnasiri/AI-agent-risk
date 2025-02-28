@@ -2,7 +2,7 @@
 
 A sophisticated digital twin simulation of a DJI Tello drone with advanced AI agent integration for autonomous control, navigation, and complex task execution.
 
-![DJTello Digital Twin](Screenshot from 2025-02-28 01-07-27.png)
+![DJTello Digital Twin](Screenshot%20from%202025-02-28%2001-07-27.png)
 
 ## Table of Contents
 
