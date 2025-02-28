@@ -10,7 +10,7 @@ We demonstrate three classes of agent methodologies: rule-based controllers usin
 
 ![DJTello Digital Twin](Screenshot%20from%202025-02-28%2001-07-27.png)
 
-## Table of Contents
+
 
 ## Table of Contents
 
